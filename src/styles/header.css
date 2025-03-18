@@ -1,6 +1,7 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    color: #e9a209;
 }
 
 #navbar {
@@ -12,7 +13,6 @@ header {
 
 #nav_logo {
     font-size: 24px;
-
 }
 
 #nav_list {
@@ -30,4 +30,45 @@ header {
 .nav-item.active a {
     color: #1d1d1d;
     border-bottom: 3px solid #ffe100;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav_list, 
+    #navbar .btn-default {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    }
 }
