@@ -60,16 +60,18 @@
 
 @media screen and (max-width: 1290px){
     section {
-        padding: 0;
+        padding: 3px;
     }
     
     #dishes {
         overflow-x: scroll;
+        
     }
 
     .dish {
         width: 200px;
         flex-shrink: 0;
+        justify-content: flex-start;
     }
 
 }
