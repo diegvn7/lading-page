@@ -59,6 +59,10 @@
 }
 
 @media screen and (max-width: 1290px){
+    section {
+        padding: 0;
+    }
+    
     #dishes {
         overflow-x: scroll;
     }
@@ -67,4 +71,5 @@
         width: 200px;
         flex-shrink: 0;
     }
+
 }
