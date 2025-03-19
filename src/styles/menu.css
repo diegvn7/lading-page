@@ -71,7 +71,7 @@
     .dish {
         width: 200px;
         flex-shrink: 0;
-        justify-content: flex-start;
+        box-shadow: none;
     }
 
 }
