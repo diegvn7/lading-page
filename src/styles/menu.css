@@ -43,12 +43,21 @@
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
+.dish-title {
+    text-align: center;
+}
+
 .dish-description {
     color: #434343;
     text-align: center;
 }
 
+.dish-rate {
+    text-align: center;
+}
+
 .dish-rate i {
+    text-align: center;
     color: #e9a209;
 }
 
