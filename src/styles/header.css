@@ -2,6 +2,11 @@ header {
     width: 100%;
     padding: 28px 8%;
     color: #e9a209;
+    position: sticky;
+    top: 0;
+    background-color: #fff9ea;
+    z-index: 3;
+    height: 70px;
 }
 
 #navbar {
