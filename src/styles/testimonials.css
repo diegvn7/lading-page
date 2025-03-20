@@ -16,7 +16,7 @@
 }
 
 #testimonials .title {
-    color: #e9a209;
+    color: var(--color-primary-3);
 }
 
 #testimonials_content {
@@ -55,7 +55,7 @@
 }
 
 .feedback-content p span {
-    color: #e9a209;
+    color: var(--color-primary-3);
 }
 
 @media screen and (min-width: 591px) and (max-width: 1290px) {
